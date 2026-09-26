@@ -22,7 +22,7 @@
 
 ## 2026-09-26 — R1 zero-paid-generation editorial motion proof
 - Task: Bootstrap the independent motion-production skillstack and render one finished 30-second Korean editorial motion graphic without a paid generation backend.
-- Source revision: initial repository bootstrap; commit SHA to be recorded by Git after this log.
+- Source revision: R1 implementation commit `380b136ca7d8bec6ff4eb0d8c03cc5cc2c7eceff`.
 - Node/npm: Node v24.18.0 / npm 12.0.2
 - Remotion: 4.0.529
 - FFmpeg: 9.0.1 full build
