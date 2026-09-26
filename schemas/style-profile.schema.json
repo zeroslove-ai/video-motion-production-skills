@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Video Motion Style Profile",
+  "type": "object",
+  "required": ["name", "background", "foreground", "accent", "fontFamily", "motion"],
+  "properties": {
+    "name": {"type": "string"},
+    "background": {"type": "string"},
+    "foreground": {"type": "string"},
+    "accent": {"type": "string"},
+    "muted": {"type": "string"},
+    "fontFamily": {"type": "string"},
+    "cornerRadius": {"type": "number"},
+    "motion": {
+      "type": "object",
+      "required": ["entranceFrames", "exitFrames"],
+      "properties": {
+        "entranceFrames": {"type": "integer", "minimum": 1},
+        "exitFrames": {"type": "integer", "minimum": 1},
+        "preferredEasing": {"type": "string"}
+      }
+    }
+  }
+}

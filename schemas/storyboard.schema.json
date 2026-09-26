@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Video Motion Storyboard",
+  "type": "object",
+  "required": ["title", "fps", "width", "height", "durationFrames", "scenes"],
+  "properties": {
+    "title": {"type": "string"},
+    "fps": {"type": "integer", "minimum": 1},
+    "width": {"type": "integer", "minimum": 1},
+    "height": {"type": "integer", "minimum": 1},
+    "durationFrames": {"type": "integer", "minimum": 1},
+    "scenes": {"type": "array", "items": {"$ref": "scene.schema.json"}}
+  }
+}

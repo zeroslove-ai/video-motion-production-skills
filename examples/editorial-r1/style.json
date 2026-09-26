@@ -1,0 +1,14 @@
+{
+  "name": "Editorial Dark R1",
+  "background": "#0B0D12",
+  "foreground": "#F5F1E8",
+  "accent": "#B9FF66",
+  "muted": "#8A919E",
+  "fontFamily": "Malgun Gothic, Noto Sans KR, sans-serif",
+  "cornerRadius": 28,
+  "motion": {
+    "entranceFrames": 14,
+    "exitFrames": 10,
+    "preferredEasing": "ease-out"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "AI 3D 캐릭터 제작은 어떻게 빨라지는가",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationFrames": 900,
+  "scenes": [
+    {"id":"S1","startFrame":0,"endFrame":105,"purpose":"Hook and title","headline":"AI 3D 캐릭터 제작은 어떻게 빨라지는가","renderer":"remotion","fallbackRenderer":"svg","layers":["eyebrow","title","accent-line"],"transitionOut":"hard-slide","acceptance":["title readable by frame 30"]},
+    {"id":"S2","startFrame":105,"endFrame":270,"purpose":"Show sequential traditional flow","headline":"기존 제작은 단계가 줄지어 있었다","renderer":"remotion","fallbackRenderer":"svg","layers":["pipeline-cards","arrows","caption"],"transitionIn":"slide","transitionOut":"wipe","acceptance":["five stages legible"]},
+    {"id":"S3","startFrame":270,"endFrame":450,"purpose":"Show agent-assisted repeatable flow","headline":"이제 반복 작업은 에이전트가 연결한다","renderer":"remotion","fallbackRenderer":"svg","layers":["agent-core","task-nodes","loop-arrows"],"transitionIn":"wipe","transitionOut":"cut","acceptance":["parallel structure obvious"]},
+    {"id":"S4","startFrame":450,"endFrame":615,"purpose":"Separate human judgment from machine repetition","headline":"사람은 판단하고, 시스템은 반복한다","renderer":"remotion","fallbackRenderer":"svg","layers":["human-column","system-column","divider"],"transitionIn":"cut","transitionOut":"push","acceptance":["contrast readable without narration"]},
+    {"id":"S5","startFrame":615,"endFrame":795,"purpose":"Show reusable motion-production architecture","headline":"좋은 자동화는 모델보다 구조가 먼저다","renderer":"remotion","fallbackRenderer":"svg","layers":["prompt","storyboard","scene","renderer","qa"],"transitionIn":"push","transitionOut":"fade","acceptance":["pipeline order clear"]},
+    {"id":"S6","startFrame":795,"endFrame":900,"purpose":"Close with R1 proof","headline":"VIDEO MOTION R1","renderer":"remotion","fallbackRenderer":"svg","layers":["badge","proof-lines","closing-title"],"transitionIn":"fade","acceptance":["zero-paid-generation proof visible"]}
+  ]
+}

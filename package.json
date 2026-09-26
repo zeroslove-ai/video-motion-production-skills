@@ -1,0 +1,21 @@
+{
+  "name": "video-motion-production-skills",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render:r1": "remotion render src/index.ts VideoMotionR1 out/video-motion-r1.mp4 --codec h264",
+    "still:r1": "remotion still src/index.ts VideoMotionR1 out/video-motion-r1-cover.png --frame=30"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.529",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.529"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.9.0"
+  }
+}

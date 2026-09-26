@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Video Motion Scene",
+  "type": "object",
+  "required": ["id", "startFrame", "endFrame", "purpose", "renderer", "layers"],
+  "properties": {
+    "id": {"type": "string"},
+    "startFrame": {"type": "integer", "minimum": 0},
+    "endFrame": {"type": "integer", "minimum": 1},
+    "purpose": {"type": "string"},
+    "headline": {"type": "string"},
+    "renderer": {"enum": ["remotion", "svg", "blender", "local-video", "cloud-video"]},
+    "fallbackRenderer": {"type": "string"},
+    "layers": {"type": "array", "items": {"type": "string"}},
+    "transitionIn": {"type": "string"},
+    "transitionOut": {"type": "string"},
+    "acceptance": {"type": "array", "items": {"type": "string"}}
+  }
+}
